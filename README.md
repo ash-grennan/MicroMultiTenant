@@ -1,6 +1,6 @@
 # MicroMultiTenant Library
 
-MicroMultiTenant is an opinionated micro library targeted currently at ASP.NET Core to easily provide tenant resolution with almost zero config. 
+MicroMultiTenant is an opinionated micro library targeted currently at ASP.NET Core to easily provide tenant configuration value switching with almost zero config. 
 
 Supported and tested against ASP.NET Core 3.1, 3.0
 
