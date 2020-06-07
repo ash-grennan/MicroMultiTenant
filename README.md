@@ -5,9 +5,9 @@ MicroMultiTenant is an opinionated micro library targeted currently at ASP.NET C
 Supported and tested against ASP.NET Core 3.1, 3.0
 
 ## Why
-* Many frameworks cater for different scenarios, therefore making their API Complex and tedious to setup
-* If using `Entity Framework`, libraries often require changes to a `DbContext` involving different interface declarations and constructors, problematic in established applications
-* Some frameworks allow for bad practices such as I/O operations during resolution, given resolution generally happens across each http request this can cause significant performance issues if implemented incorrectly by the end user.
+* Many frameworks cater for different scenarios, therefore making their API complex and tedious to setup
+* If using `Entity Framework`, libraries often require changes to a `DbContext` involving different interface implementations and constructor overloading, this is problematic in established applications
+* Some frameworks allow for bad practices such as I/O operations during resolution, given resolution generally happens across each http request this can cause significant performance issues if implemented incorrectly by the end user
 
 ## Before you start
 
@@ -80,4 +80,4 @@ And now to install the middleware, add the following to AppBuilder
     }
 
 
-That's it, your new Configuration values will be available throughout your application.
+That's it, your new configuration values will be available throughout your application.
