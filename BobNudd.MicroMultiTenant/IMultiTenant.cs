@@ -13,6 +13,6 @@ namespace BobNudd.MicroMultiTenant
         /// Execute configuration options
         /// </summary>
         /// <returns></returns>
-        Task Execute(IConfiguration configuration);
+        Task Execute(IConfigurationRoot configuration);
     }
 }

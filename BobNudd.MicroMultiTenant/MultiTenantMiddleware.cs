@@ -20,7 +20,7 @@ namespace BobNudd.MicroMultiTenant
         public Task Invoke(HttpContext httpContext, IServiceProvider provider)
         {
             var context = provider.GetRequiredService<IMultiTenant>();
-            var config = provider.GetRequiredService<IConfiguration>();
+            var config = provider.GetRequiredService<IConfigurationRoot>();
             context.Execute(config);
 
             // push the updated services back into the <see cref="T:Microsoft.AspNetCore.Http.HttpContext" />  HttpContext
