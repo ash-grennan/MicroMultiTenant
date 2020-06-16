@@ -8,6 +8,7 @@
     <Description>ASP.NET Core support for simple mirco multitenancy</Description>
     <Copyright>Copyright ©2020 Ash Grennan</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
